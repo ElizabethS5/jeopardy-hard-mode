@@ -37,4 +37,6 @@ input {
   font-size: larger;
   text-align: center;
   color: blue;
+  border-radius: 5px;
+  outline: none;
 }
