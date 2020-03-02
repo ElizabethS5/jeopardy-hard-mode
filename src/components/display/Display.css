@@ -22,11 +22,19 @@
 }
 
 .submitButton {
-  background-color: yellow;
+  background-color: rgb(247, 247, 132);
   color: blue;
   width: 150px;
   height: 30px;
   font-size: larger;
   border-radius: 5px;
   outline: none;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+  font-size: larger;
+  text-align: center;
+  color: blue;
 }
