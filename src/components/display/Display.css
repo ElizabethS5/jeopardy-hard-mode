@@ -1,0 +1,32 @@
+.questionsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.questionContainer {
+  width: 100%;
+  background-color: blue;
+  color: yellow;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.score {
+  color: blue;
+}
+
+.question {
+  margin: 20px;
+}
+
+.submitButton {
+  background-color: yellow;
+  color: blue;
+  width: 150px;
+  height: 30px;
+  font-size: larger;
+  border-radius: 5px;
+  outline: none;
+}
