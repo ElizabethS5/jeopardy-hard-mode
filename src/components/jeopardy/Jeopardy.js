@@ -39,7 +39,7 @@ class Jeopardy extends Component {
   getCategoryQuestions = catId => {
     let categoryQuestionClient = new CategoryQuestions(catId);
     return categoryQuestionClient.getQuestions().then(result => {
-      this.setState({ categoryQuestions: result.data });
+      this.setState({ categoryQuestions: result.data, data: {} });
     });
   };
 
